@@ -1,4 +1,4 @@
-## Python script to ownload historical industry by year wage averages from the BLS Quarterly Census of Employment and Wages
+## Download historical industry by year wage averages from the BLS Quarterly Census of Employment and Wages
 
 The [Quarterly Census of Employment and Wages](https://www.bls.gov/cew/) by the BLS contains wage and employment data at the county by industry code by year level since 1975.
 However, the data is only easily queryable through their API for the most historical five years. Historical data appears to be avilable only though the files listed [here](https://www.bls.gov/cew/datatoc.htm).
