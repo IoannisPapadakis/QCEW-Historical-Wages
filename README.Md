@@ -23,4 +23,4 @@ The QCEW data has been aggregated by NAICS code since 2000, and is availble aggr
 
 Note: After each file is downloaded, it is read into Python and then deleted. The extracted data is appended across years into a file named ```qcew_wages_industrybyyear_naics.csv``` if ```naics``` is set to True and ```qcew_wages_industrybyyear_sic.csv``` if ```naics``` is set to False, in the local directory specified by ```datapath```.
 
-Please let me know if you have any concerns or catch a mistake!
+Please let me know if you have any questions, concerns or spot a mistake!
