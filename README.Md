@@ -4,7 +4,7 @@ The [Quarterly Census of Employment and Wages](https://www.bls.gov/cew/) by the 
 However, the data is only easily queryable through their API for the most historical five years. Historical data appears to be avilable only though the files listed [here](https://www.bls.gov/cew/datatoc.htm).
 For my purposes, I wanted average wages by industry by year, as far back as possible. Doing this manually would have involved downloading one file for each year, unzipping it, and extracting the relevant aggregate statistics from the CSV. This script automates that process.
 
-The script [get_historicalwagedata.py](get_historicalwagedata.py) is set up for this purpose specifically, but could be easily be adapted to suit other purposes (e.g. extract data by geographical area rather than industry). To use as is simply change the following lines in the preamble, as desired:
+The Python script [get_historicalwagedata.py](get_historicalwagedata.py) is set up for this purpose specifically, but could be easily be adapted to suit other purposes (e.g. extract data by geographical area rather than industry). To use as is simply change the following lines in the preamble, as desired:
 
 ```{python}
 #set path to store files (temporary downloads and final csv file)
