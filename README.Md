@@ -20,7 +20,7 @@ startYear=1975
 endYear=2000
 ```
 
-For the Annual Single Files I needed, the QCEW data has been aggregated by NAICS code since 1990, and is availble aggregated by SIC code from 1975 to 2000. The code can operate either by SIC code or NAICS code, by setting the ```naics``` boolean variable. **Note:** as written, the code will extract data aggregated at the four digit NAICS level (this could be changed easily). The results from the script (for the full 1975-2000 SIC-based data, and the full 1990-2016 NAICS-based data). Are available in the repository as [qcew_wages_industrybyyear_naics.csv](qcew_wages_industrybyyear_naics.csv) and [qcew_wages_industrybyyear_sic.csv](qcew_wages_industrybyyear_sic.csv).
+For the Annual Single Files (see [here](https://www.bls.gov/cew/datatoc.htm)) I needed, the QCEW data has been aggregated by NAICS code since 1990, and is availble aggregated by SIC code from 1975 to 2000. The code can operate either by SIC code or NAICS code, by setting the ```naics``` boolean variable. **Note:** as written, the code will extract data aggregated at the four digit NAICS level (this could be changed easily). The results from the script (for the full 1975-2000 SIC-based data, and the full 1990-2016 NAICS-based data). Are available in the repository as [qcew_wages_industrybyyear_naics.csv](qcew_wages_industrybyyear_naics.csv) and [qcew_wages_industrybyyear_sic.csv](qcew_wages_industrybyyear_sic.csv).
 
 Note: After each file is downloaded, it is read into Python and then deleted. The extracted data is appended across years into a file named ```qcew_wages_industrybyyear_naics.csv``` if ```naics``` is set to True and ```qcew_wages_industrybyyear_sic.csv``` if ```naics``` is set to False, in the local directory specified by ```datapath```.
 
