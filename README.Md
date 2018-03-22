@@ -1,6 +1,6 @@
 ## Download historical industry by year wage averages from the BLS Quarterly Census of Employment and Wages
 
-The [Quarterly Census of Employment and Wages](https://www.bls.gov/cew/) by the BLS contains wage and employment data at the county by industry code by year level since 1975.
+The [Quarterly Census of Employment and Wages](https://www.bls.gov/cew/) by the BLS contains US wage and employment data at the county by industry code by year level since 1975.
 However, the data is only easily queryable through their API for the most historical five years. Historical data appears to be avilable only though the files listed [here](https://www.bls.gov/cew/datatoc.htm).
 For my purposes, I wanted average wages by industry by year, as far back as possible. Doing this manually would have involved downloading one file for each year, unzipping it, and extracting the relevant aggregate statistics from the CSV. This script automates that process.
 
